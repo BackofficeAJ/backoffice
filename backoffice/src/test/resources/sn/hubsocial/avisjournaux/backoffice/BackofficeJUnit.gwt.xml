@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="Backoffice">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='sn.hubsocial.avisjournaux.backoffice.Backoffice' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/Backoffice/greet" class="sn.hubsocial.avisjournaux.backoffice.server.GreetingServiceImpl" />
+
+</module>
